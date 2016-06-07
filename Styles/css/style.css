@@ -1,0 +1,1164 @@
+*{
+    font-family: "Corbel" , "Arial", sans-serif;
+}
+
+a{
+    cursor: pointer;
+}
+
+#page-wrapper {
+    margin-bottom: 10px;
+}
+
+.header-info {
+    background-color: #1974F9;
+    border-top: 3px solid #F45140;
+}
+
+.socialphone-wrap {
+    display: table;
+    table-layout: fixed;
+    width: 100%; 
+    max-width: 1168px;
+    margin: auto;
+    padding: 1em;
+}
+
+.nav span {
+    color: #F45140;
+    font-size: 18px;
+    font-family: 'Helvetica';
+}
+
+.toggle-social p{
+    color: #F45140;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.schedule-bar {
+    position: relative;
+    bottom: 83px;
+}
+
+.socialphone-wrap p{
+    margin: 0;
+}
+
+.yelp-icon, .contact-nubr {
+    display: table-cell;
+}
+
+.contact-nubr {
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.social-icons {
+    text-align: right;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+.main-image-cover {
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: -1;
+}
+
+/*#main-cover {
+    position: relative;
+    bottom: 50px;
+}*/
+
+.smile-logo {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-container {
+    width:1570px;
+}
+
+.navbar-nav > li > a {
+    color: #787B7D !important;
+    font-weight: bold;
+}
+
+.navbar-nav > li > a:hover {
+    color: #F45140 !important;
+}
+
+.active-btn {
+    color: #F45140;
+}
+
+.menu-word {
+    vertical-align: middle;
+    display: inline-block;
+    font-size: 18px;
+}
+
+.info-content {
+    float: right;
+    display: block;
+    margin-top: 3em;
+    color: #787B7D;
+    font-weight: bold;
+}
+
+.toggle-social {
+    display: none;
+}
+
+.info-content p {
+    font-size: 18px;
+    font-family: "Helvetica", sans-serif;
+    color: #F45140;
+    text-align: right;
+}
+
+.icons {
+   text-align: right;
+}
+
+#box-schedule {
+    background: #1974F9;
+    padding: 10px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    position: relative;
+    z-index: 5;
+}
+
+.box-schedule-solidbar {
+    background: rgb(244, 81, 64) !important;
+}
+
+#box-schedule h1 {
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#box-schedule h2 {
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 5px;
+    font-weight: bold;
+}
+
+.vertical_line{
+    height:40px; 
+    width:1px;
+    border-right: 1px dashed;
+    border-color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.btn-smile {
+    background-color: #226BFC;
+    border: none;
+    font-size: 24px;
+}
+
+.btn-smile:hover {
+    background-color: #787B7D;
+}
+
+#pricing-section {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    font-family: "Corbel" , "Arial", sans-serif;
+}
+
+.gallery {
+  background-color: transparent;
+}
+
+.gallery-cell {
+  width: 100%;
+  height: auto;
+}
+
+.gallery-cell img {
+  width: 100%;
+  height: auto;
+}
+
+/* cell number */
+.gallery-cell:before {
+  display: block;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  color: white;
+}
+
+/* position dots in gallery */
+.flickity-page-dots {
+/*  bottom: 0px; */
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+   background: #1974F9;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: rgb(244, 81, 64);
+}
+
+.zocdoclogo {
+    display: inline-block;
+}
+
+.price-boxes {
+    display: inline-block;
+    background: rgba(25, 116, 249, 0.9);
+    max-width: 225px;
+    width: 100%;
+    height: 250px;
+    margin: 1em .2em;
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 80px;
+}
+
+.biomimentic-box {
+    display: inline-block;
+    background: rgba(25, 116, 249, 0.9);
+    max-width: 225px;
+    width: 100%;
+    height: 250px;
+    margin: 1em .2em;
+    color: #fff;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 80px;
+}
+
+.biometric-btn {
+    background-color: #F45140;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    margin: 0 1.5em;
+    color: #fff !important;
+}
+
+.biometric-btn:hover {
+    background-color: #787B7D;
+    color: #fff;
+}
+
+.biometric-btn:focus {
+    background-color: #F45140;
+    border: none;
+    color: #fff;
+}
+
+.biomen-collapse {
+    background-color: #fff;
+    border: 1px solid #F45140;
+    font-size: 16px;
+}
+
+.biomen-collapse h1 {
+    color: #F45140;
+    font-weight: bold;
+}
+
+.slide1{
+      background: url("http://smiledentalpractice.com/images/smilehover_both.jpg") no-repeat center center;
+     cursor: pointer;
+}
+
+.slide2{
+     background: url(http://smiledentalpractice.com/images/office.jpg) center center no-repeat;
+     cursor: pointer;
+}
+
+.slide3{
+     background: url(http://smiledentalpractice.com/images/invisalign_hover.jpg) center center no-repeat;
+     cursor: pointer;
+}
+
+.slide4{
+     background: url(http://smiledentalpractice.com/images/crownimage.jpg) center center no-repeat;
+     cursor: pointer;
+}
+
+.slide5{
+     background: url(http://smiledentalpractice.com/images/biomentic_hover.jpg) center center no-repeat;
+     cursor: pointer;
+}
+
+.slide-backg:hover {
+    background: rgba(63, 135, 252, 0.8);
+    color: transparent;
+}
+
+.slide-backg:hover .price-info {
+    opacity:1;
+    color: #fff;
+}
+
+.price-info {
+    opacity: 0;
+}
+
+.price-boxes .price-info {
+    padding: .5em 0em;
+}
+
+.price-boxes h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.biomimentic-box h2 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.price-boxes h2 strong {
+    font-family: 'Helvetica' !important;
+}
+
+
+.check-in-box {
+    background-color: #F45140;
+    width: 100%;
+}
+
+.check-in-box p {
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+
+.check-in-box p a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.check-in-box p a:hover {
+    color: #F45140;
+}
+
+#check-in-form {
+    padding:10px;
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 1em;
+}
+
+/*.zocdoc-back-wrap {
+     background: url(http://impactograph.com/test/images/zocback.jpg) center center no-repeat;
+    max-width: 100%;
+    height: auto;
+}*/
+
+.ourservices-header {    
+      padding:.1em;
+}
+
+.ourservices-header h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.zoc-btn {
+    background-color: #F45140;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+}
+
+.zoc-btn:hover {
+    background-color: #787B7D;
+}
+
+.zoc-btn:focus {
+    background-color: #F45140;
+}
+
+#check-in-form label {
+    color: #fff;
+    font-size: 14px;
+}
+
+.online-checkin {
+    font-size: 18px !important;
+    margin: 0 1em;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#check-in-form input {
+    padding:5px;
+    color: #000;
+}
+
+.send-btn {
+    font-size: 16px;
+    background-color: #F45140;
+    color: #fff !important;
+}
+
+.send-btn:hover {
+    background-color:#787B7D;
+}
+
+.services-wrap {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.services-wrap h2 {
+    font-weight: bold;
+    color: #F45140;
+}
+
+hr {
+   border-color: #F45140;
+}
+
+
+.services-info figcaption {
+    padding-top: 10px;
+    display: block;
+}
+
+.services-info h3 {
+    font-weight: bold;
+}
+
+.read-more {
+    color: #F45140;
+    text-decoration: underline;
+}
+
+.read-more:hover {
+    color: #787B7D;
+}
+
+.services-images {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.border-sta {
+    border: 1px solid #ccc;
+}
+
+.circle-arrow {
+    position: relative;
+    top: 5px;
+}
+
+
+.edik-wrap {
+    margin: 2em 0;
+    background-color: #DEEEF9;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.edik-wrap h3 {
+    font-weight: bold;
+}
+
+.dredik-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.container-shift {
+    position: relative;
+    bottom: 83px;
+} 
+
+
+.rightjust-social {
+    text-align: right;
+}
+
+.business-info {
+    color: #fff;
+}
+
+.business-info h3 {
+    font-weight: bold;
+    
+} 
+
+
+.business-info p a {
+    color:#fff;
+}
+
+.business-info p a:hover {
+    color:#F45140;
+}
+
+#map {
+    width: 100%;
+}
+
+.ftr-nav {
+    padding: 0;
+}
+
+.ftr-nav li {
+     list-style: none;
+}
+
+.ftr-nav li a {
+    color: #fff;
+}
+
+
+.ftr-nav li a:hover {
+     color:#F45140;
+}
+
+.ftr-logo {
+    position: relative;
+    top: 50px;
+}
+
+.ftr-copyright {
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+}
+
+
+/* Our Services */
+
+.external-links {
+    color:#F45140;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.external-links:hover {
+    color:#787B7D;
+    font-weight: bold;
+}
+
+/* About Us */
+
+.main-image-cover {
+    max-width: 100%;
+    height: auto;
+}
+
+#about-info h1 {
+    font-weight: bold;
+    color:#F45140;
+    text-align: center;
+}
+
+#about-info h2 {
+    font-weight: bold;
+    color:#F45140;
+    text-align: center;
+}
+
+.office-img-sec h2{
+    font-weight: bold;
+    color:#F45140;
+    text-align: center;
+}
+
+.office-img-lrg {
+    width: 100%;
+    height: auto;
+}
+
+#about-info p {
+    text-align: center;
+    font-size: 18px;
+}
+
+.office-thumbnail {
+    border: none !important;
+    padding: 0px !important;
+}
+
+.office-img:hover {
+    -webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+
+.office-photo-head {
+    background-color: #f45140;
+}
+
+.modal-img-close {
+    color: #fff;
+    opacity: 0.8;
+    font-size: 36px;
+}
+
+/* Before & After */
+
+.before-after-wrap h1 {
+    font-weight: bold;
+    color:#F45140;
+    text-align: center;
+}
+
+.before-after-imgs figure {
+    display: inline-block;
+}
+
+.before-after-imgs figure h3 {
+   font-weight: bold;
+}
+
+
+/* First Time */
+
+.firsttime-content-left h3 {
+    color: #226BFC;
+    font-weight: bold;
+}
+
+.forms-btn {
+    background-color: #F45140;
+    border: none;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.forms-btn:hover {
+    background-color: #787B7D;
+    border: none;
+}
+
+.forms-btn:focus {
+    background-color: #F45140;
+    border: none;
+}
+
+.offer-boxes {
+    background-color: #DEEEF9;
+    padding: 30px;
+    text-align: center;
+}
+
+.offer-boxes h1 {
+    font-weight: bold;
+    color: #226BFC;
+    font-family: 'Helvetica';
+}
+
+.offer-boxes h2 {
+    font-weight: bold;
+}
+
+.patient-form-title {
+    font-weight: bold;
+    color: #F45140;
+}
+
+.patient-form-dental h5 {
+    font-weight: bold;
+}
+
+.patient-form-dental span {
+     color: #F45140;
+     font-size: 16px;
+}
+
+.patient-form-dental h6 {
+    font-weight: bold;
+    color: #F45140;
+    font-size: 24px;
+}
+
+.patient-form-dental h4 {
+    font-weight: bold;
+    color: #226BFC;
+}
+
+.patient-form-dental label {
+    position: relative;
+    margin: 0 .5em .5em 0;
+}
+
+.patient-form-dental input {
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: .5em;
+}
+
+.patient-form-dental input[type="radio"] {
+    width: auto;
+}
+
+
+input[type="radio"]:checked {
+     background-color: #226BFC;
+}
+
+.choice-radio {
+     color: #F45140;
+}
+
+.input-icons {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #ccc;
+}
+
+.yesno-qanda {
+    font-size: 16px;
+}
+
+.yesno-qanda span {
+   color: #F45140;
+   font-size: 18px;
+}
+
+.check-columns {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.check-columns input {
+    margin: .3em 0;
+}
+
+.btn-med-form {
+    background-color: #F45140;
+    color: #fff;
+    border: none;
+}
+
+.btn-med-form:hover {
+    background-color: #226BFC;
+    color: #fff;
+    border: none;
+}
+
+.btn-med-form:focus {
+    background-color: #787B7D;
+    color: #fff;
+    border: none;
+}
+
+
+/* Contact Us */
+
+.contact-intro {
+    margin-bottom: 20px;
+}
+
+.building-image {
+    width: 100%;
+    max-width: 952px;
+    height: auto;
+}
+
+/*.firsttime-wrap {
+    display: table;
+    table-layout: fixed;
+}*/
+
+.bulding-img {
+   /*   display: inline-block;
+    vertical-align: top; */
+}
+
+#building-location-info {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 3em;
+}
+
+.contact-content-info {
+    text-align: left;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 1.5em;
+}
+
+.contact-content-info h3 {
+    text-align: left;
+    font-weight: bold;
+    color: #226BFC;
+}
+
+.contact-content-info p {
+    font-size: 16px;
+}
+
+.app-wrap h1 {
+    font-weight: bold;
+    color:#F45140;
+    text-align: center;
+}
+
+.app-wrap h6 {
+    font-weight: bold;
+    color:#F45140;
+    text-align: center;
+}
+
+.app-wrap {
+    background-color: #DEEEF9;
+}
+
+#smile-dentist-app {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+}
+
+#smile-dentist-app {
+    padding: 10px;
+}
+
+#smile-dentist-app input{
+    padding: 5px;
+    margin: .2em .2em;
+    border-radius: 5px;
+    border-color: #ccc;
+    border-style:double;
+    width: 260px;
+}
+
+#smile-dentist-app textarea {
+    border-radius: 5px;
+    border-color: #ccc;
+    border-style:solid;
+    width: 100%;
+    max-width: 530px;
+    min-height: 100px;
+    padding: 5px;
+}
+
+
+.contact-btn {
+    background-color: #F45140;
+    border: none;
+    width: auto !important;
+}
+
+.contact-btn:hover {
+    background-color: #787B7D;
+    border: none;
+}
+
+.contact-btn:focus {
+    background-color: #F45140;
+    border: none;
+}
+
+.app-wrap p {
+    text-align: center;
+    color: #F45140;
+    font-weight: bold;
+}
+
+#map {
+    height:500px;
+}
+
+
+/* Toggle X */
+
+.navbar-toggle .icon-bar {
+  width: 22px;
+  transition: all 0.2s;
+   
+}
+
+.navbar-toggle .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%;
+}
+
+.navbar-toggle .middle-bar {
+  opacity: 0;
+}
+
+.navbar-toggle .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%;
+}
+
+.navbar-toggle.collapsed .top-bar {
+  transform: rotate(0);
+}
+
+.navbar-toggle.collapsed .middle-bar {
+  opacity: 1;
+}
+
+.navbar-toggle.collapsed .bottom-bar {
+  transform: rotate(0);
+}
+
+.navbar-header:before {
+  text-align: center;
+}
+
+
+/* Media Queries */
+
+/* Toggle Navbar Appearance */
+@media screen and (max-width: 995px) 
+{ 
+.navbar-header { 
+    float: none; 
+    padding-bottom: 20px;
+    } 
+    
+.navbar-left,.navbar-right { 
+     float: none 
+     !important; }
+    
+.navbar-toggle { 
+    display: block; 
+    }
+    
+.navbar-collapse { 
+      border-bottom: 1px solid; 
+      border-color:#F45140 !important; 
+      box-shadow: inset 0 1px 0 rgba(255,255,255,0.1); 
+}
+    
+.navbar-fixed-top { 
+    top: 0; 
+    border-width: 0 0 1px; 
+} 
+    
+.navbar-collapse.collapse { 
+    display: none!important; 
+    }
+    
+.navbar-nav { 
+    float: none!important; 
+    margin-top: 7.5px; 
+    text-align: center;
+    }
+    
+.navbar-nav>li { 
+    float: none; 
+}
+    
+.navbar-nav>li>a { 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+}
+    
+.collapse.in{ 
+    display:block !important; 
+}
+    
+}
+
+/* Index */
+
+@media screen and (max-width: 1200px) {
+    .socialphone-wrap {
+        max-width: 970px;
+    }
+    .top-phone-number {
+        display: none !important;
+    }
+    
+}
+
+@media screen and (max-width: 995px) {
+    .info-content {
+        display: none;
+    }
+    
+    .contact-fluid {
+        display: none;
+    }
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #F45140 !important;
+    border-radius: 0px;
+    border: none;   
+}
+    
+.toggle-social {
+    display: block;
+    text-align: center;
+    margin-bottom: 1em;
+}
+    
+.toggle-social p {
+    font-family: "Helvetica", sans-serif;
+    }    
+    
+.toggle-social a img {
+        display: inline-block;
+    }   
+    
+    
+.business-info {
+        text-align: center;
+    }
+    
+.container-shift {
+    position: relative;
+    bottom: 0px;
+}   
+    
+.ftr-logo {
+    top:0;
+    } 
+    
+.zocdoclogo {
+    padding-bottom: 15px;
+    }    
+    
+}
+
+
+
+@media screen and (max-width:768px) {
+    .services-wrap {
+        text-align: center;
+    }
+    
+    #check-in-form label {
+        display: block;
+        text-align: center;
+    }
+    
+    #pricing-section {
+        max-width: 220px;
+    }
+    
+    .ourservices-header {
+        padding: 35px;
+    }
+
+}
+    
+@media screen and (max-width:440px){
+    .navbar-brand{
+        height:auto;
+        width:75%;
+}
+
+    .navbar-brand img{
+        max-width:100%;
+}
+    .navbar-toggle {
+       /* margin:25px -5px 8px 0;
+*/    }
+
+
+}
+    
+
+
+/* Before & After */
+
+@media screen and (max-width:600px){
+    
+.before-after-imgs figure{
+    display: block;
+    text-align: center;
+    }
+}
+
+
+/* First Visit */
+
+@media screen and (max-width:1168px){
+    
+.firsttime-content-left{
+    text-align: center;
+    }
+}
+
+/* Contact Us */
+
+
+
+@media screen and (max-width:1900px){ 
+
+   /* .building-location-info, .bulding-img {
+        display: table-row;
+    } */
+   
+    .building-image {
+        max-width: none;
+    }
+    
+    #building-location-info {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:920px) {
+    .contact-content-info {
+        display: block;
+        text-align: center;
+    }
+    
+    .contact-content-info h3 {
+        text-align: center;
+    }
+    
+    #smile-dentist-app {
+        text-align: center;
+    }
+}
+
+/*  Patient Forms */
+
+@media screen and (max-width:995px) {
+    .patient-form-dental {
+        text-align: center;
+    }
+}

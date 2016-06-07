@@ -1,0 +1,39 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    margin:0;	
+    padding:0;
+    height:100%;
+}
+
+#wrap {
+    display:table;
+    width:100%
+}
+
+.footer {
+  background-color: #226BFC;
+  display:table-row ;
+  height:1px;
+  border-top: 3px solid #F45140;
+}
+
+.border-ftr {
+    border-top: 3px solid #F45140;
+    height: 1px;
+    background-color: #226BFC;
+}
+
+header, main { 
+    display:block;
+}
+
+/* ie7 and under*/
+
+header, main {
+    display:table-row;
+}
+
+header {
+    height:1px;
+}
